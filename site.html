@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de login.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login">
+        <h2>Cadastro de login.</h2>
+        <form method="post" action="cadastro.php">
+            <label for="usuario">Usuario:</label> <br>
+            <input type="text" id="usuario" name="usuario" required> <br>
+
+            <label for="senha">Senha:</label><br>
+            <input type="password" name="senha" id="senha" required> <br>
+
+            <label for="confirmasenha">Confirmasenha:</label><br>
+            <input type="password" name="confirmasenha" id="confirmasenha" required> <br>
+
+            <input class="botao" type="submit" value="Cadastrar">
+        </form>
+    </div>
+</body>
+</html>

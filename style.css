@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+
+* {
+    
+    padding: 2px;
+    margin: 5px;
+}
+
+body {
+    
+    background-color: blueviolet;
+}
+
+h2 {
+    padding: 8px;
+}
+
+input {
+   padding: 6px;
+   font-size: 20px;
+   
+}
+
+label {
+    padding: 15px;
+    width: 90%;
+
+}
+
+.login {
+    
+    margin: auto;
+    margin-top: 10%;
+    height: 350px;
+    width: 350px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.botao {
+    margin-top: 20px;
+    width: 50%;
+    cursor: pointer;
+    background-color: tomato;
+    color: blueviolet;
+}
+
+.botao:hover {
+    background-color: yellowgreen;
+}
